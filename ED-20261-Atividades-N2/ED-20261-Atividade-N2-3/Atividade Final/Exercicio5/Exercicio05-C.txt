@@ -1,0 +1,26 @@
+PARTE C: Verificacao Manual (Desenho ASCII) ---
+Ordem de insercao: 50, 30, 70, 20, 40, 60, 80, 10, 25, 45, 65
+
+            50
+          /    \
+        30      70
+       /  \    /  \
+      20  40  60  80
+     / \    \   \
+    10  25   45  65
+
+1. No 50 (Raiz):
+   - Profundidade: 0 (eh a raiz, nao tem ninguem acima)
+   - Altura: 3 (o maior caminho eh 50->30->20->10)
+   - Grau: 2 (tem filho esquerdo 30 e filho direito 70)
+
+2. No 10 (Folha):
+   - Profundidade: 3 (caminho: 50->30->20->10, sao 3 passos)
+   - Altura: 0 (eh uma folha, nao tem filhos)
+   - Grau: 0 (nao tem nenhum filho)
+
+3. No 40 (No intermediario):
+   - Profundidade: 2 (caminho: 50->30->40, sao 2 passos)
+   - Altura: 1 (tem um filho que eh folha, entao altura eh 1)
+   - Grau: 1 (tem apenas um filho, o direito que eh 45)
+ 
